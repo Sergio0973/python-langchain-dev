@@ -80,6 +80,66 @@ Contexto:
 """
 )
 
+PROMPT_ANALISIS = ChatPromptTemplate.from_template(
+    """
+Eres un analista de sistemas RAG. Debes comparar los resultados reales de
+cuatro escenarios aplicados al mismo documento y a la misma pregunta.
+
+Responde las siguientes tres preguntas del taller:
+
+1. Analiza los beneficios y limitaciones de usar chunk_size=1000,
+chunk_overlap=200, k=4 y temperature=0.1.
+
+2. Explica cómo cambia la calidad de los fragmentos y la exactitud de la
+respuesta al usar chunk_size=350, chunk_overlap=20 y k=2.
+
+3. Compara temperature=0.1 frente a temperature=0.8 en estilo, fidelidad al
+documento y conveniencia de uso.
+
+Usa exclusivamente los resultados proporcionados. No inventes observaciones.
+Escribe en español latinoamericano. Organiza la respuesta con los encabezados
+"### 1.", "### 2.", "### 3." y termina con "## Conclusión".
+
+Pregunta evaluada:
+{question}
+
+Resultados de los escenarios:
+{results}
+"""
+)
+
+PROMPT_CHAT = ChatPromptTemplate.from_template(
+    """
+Eres un asistente conversacional especializado en las bases y condiciones de
+la promoción de Nestlé.
+
+Ten en cuenta el historial para comprender preguntas de seguimiento, pero usa
+el contexto recuperado como fuente para responder sobre el documento.
+
+Si la respuesta está en el contexto, comienza con: "Según el documento:"
+
+Si la pregunta no está relacionada con el documento, puedes responder con
+conocimiento general, pero comienza exactamente con:
+"Respuesta general (no proviene del documento):"
+
+Si la pregunta está relacionada con la promoción, pero el contexto no contiene
+la respuesta, responde solamente:
+"La información solicitada no se encuentra en el documento."
+
+Responde en español latinoamericano, de forma directa y en un máximo de dos
+párrafos. No repitas información innecesariamente.
+
+Historial de la conversación:
+{history}
+
+Pregunta actual:
+{question}
+
+Contexto recuperado:
+{context}
+"""
+)
+
 ESCENARIOS = [
     {
         "nombre": "Escenario base",
@@ -258,7 +318,147 @@ def ejecutar_escenario(config, vector_store, chunks_generados):
     }
 
 
-def guardar_informe(resultados):
+def generar_analisis(resultados):
+    """Pedir a OpenAI que compare los cuatro escenarios del taller."""
+    bloques = []
+    for resultado in resultados:
+        bloques.append(
+            f"""
+Escenario: {resultado["nombre"]}
+chunk_size={resultado["chunk_size"]}
+chunk_overlap={resultado["chunk_overlap"]}
+k={resultado["k"]}
+temperature={resultado["temperature"]}
+chunks_generados={resultado["chunks_generados"]}
+respuesta:
+{resultado["respuesta"]}
+""".strip()
+        )
+
+    llm = ChatOpenAI(
+        model="gpt-4.1-mini",
+        temperature=0.1,
+        max_retries=0,
+    )
+    datos_prompt = {
+        "question": PREGUNTA,
+        "results": "\n\n---\n\n".join(bloques),
+    }
+
+    intentos = 4
+    for intento in range(1, intentos + 1):
+        try:
+            respuesta = (PROMPT_ANALISIS | llm).invoke(datos_prompt)
+            return respuesta.content
+        except (
+            RateLimitError,
+            APIConnectionError,
+            APITimeoutError,
+            InternalServerError,
+        ):
+            if intento == intentos:
+                raise
+
+            espera = 15 * intento
+            print(
+                "OpenAI alcanzó un límite temporal durante el análisis. "
+                f"Reintento {intento}/{intentos - 1} en {espera} segundos..."
+            )
+            time.sleep(espera)
+
+
+def responder_chat(pregunta, historial, retriever):
+    """Responder una pregunta usando contexto RAG e historial conversacional."""
+    historial_reciente = historial[-6:]
+    historial_texto = "\n".join(
+        f"Usuario: {turno['pregunta']}\nAsistente: {turno['respuesta']}"
+        for turno in historial_reciente
+    )
+    if not historial_texto:
+        historial_texto = "No hay mensajes anteriores."
+
+    # Incluir preguntas recientes ayuda al retriever a comprender referencias
+    # como "¿y cuándo termina?" o "¿quiénes no pueden participar?".
+    consulta_recuperacion = "\n".join(
+        [turno["pregunta"] for turno in historial_reciente[-2:]]
+        + [pregunta]
+    )
+    docs_relevantes = retriever.invoke(consulta_recuperacion)
+
+    llm = ChatOpenAI(
+        model="gpt-4.1-mini",
+        temperature=0.1,
+        max_retries=0,
+    )
+    datos_prompt = {
+        "history": historial_texto,
+        "question": pregunta,
+        "context": format_docs(docs_relevantes),
+    }
+
+    intentos = 4
+    for intento in range(1, intentos + 1):
+        try:
+            respuesta = (PROMPT_CHAT | llm).invoke(datos_prompt)
+            return respuesta.content, docs_relevantes
+        except (
+            RateLimitError,
+            APIConnectionError,
+            APITimeoutError,
+            InternalServerError,
+        ):
+            if intento == intentos:
+                raise
+
+            espera = 15 * intento
+            print(
+                "OpenAI alcanzó un límite temporal durante el chat. "
+                f"Reintento {intento}/{intentos - 1} en {espera} segundos..."
+            )
+            time.sleep(espera)
+
+
+def iniciar_chat_conversacional(vector_store, resultados, analisis):
+    """Mantener una conversación RAG hasta que el usuario escriba 'salir'."""
+    retriever = vector_store.as_retriever(search_kwargs={"k": 6})
+    historial = []
+
+    print("\n" + "=" * 80)
+    print("CHAT CONVERSACIONAL SOBRE EL DOCUMENTO")
+    print("=" * 80)
+    print("Haz preguntas de seguimiento. Escribe 'salir' para terminar.\n")
+
+    while True:
+        try:
+            pregunta = input("Tú: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nChat finalizado.")
+            break
+
+        if pregunta.lower() in {"salir", "exit", "quit"}:
+            print("Chat finalizado.")
+            break
+
+        if not pregunta:
+            print("Escribe una pregunta o utiliza 'salir'.")
+            continue
+
+        respuesta, docs = responder_chat(pregunta, historial, retriever)
+        historial.append(
+            {
+                "pregunta": pregunta,
+                "respuesta": respuesta,
+                "documentos": docs,
+            }
+        )
+
+        print(f"\nAsistente: {respuesta}\n")
+        guardar_informe(resultados, analisis, historial)
+
+    return historial
+
+
+def guardar_informe(resultados, analisis=None, conversacion=None):
     """Guardar la evidencia de todos los escenarios para su comparación."""
     lineas = [
         "# Resultados del taller RAG Nestlé",
@@ -303,98 +503,41 @@ def guardar_informe(resultados):
                 ]
             )
 
-    lineas.extend(
-        [
-            "## Análisis de los resultados",
-            "",
-            "### 1. Beneficios y limitaciones del escenario base",
-            "",
-            (
-                "En el escenario base, los fragmentos de 1000 caracteres con "
-                "un traslape de 200 conservaron suficiente contexto alrededor "
-                "de cada regla. Esto permitió recuperar en un mismo fragmento "
-                "la causal de descalificación y su explicación, reduciendo el "
-                "riesgo de interpretar frases aisladas. El traslape también "
-                "ayudó a preservar ideas que se encontraban cerca del límite "
-                "entre dos chunks."
-            ),
-            "",
-            (
-                "La principal limitación es que los fragmentos largos pueden "
-                "incluir información que no responde directamente a la "
-                "pregunta. Además, el traslape produce contenido repetido, "
-                "aumenta la cantidad de texto almacenado y puede hacer que "
-                "varios resultados contengan partes similares. Aun así, para "
-                "este documento, la configuración base ofreció un equilibrio "
-                "adecuado entre contexto y precisión."
-            ),
-            "",
-            "### 2. Efecto de chunks pequeños, menor traslape y k=2",
-            "",
-            (
-                "Al reducir el chunk_size a 350, el chunk_overlap a 20 y k a "
-                "2, los fragmentos fueron más específicos, pero perdieron "
-                "continuidad. La respuesta recuperó el incumplimiento de los "
-                "requisitos y los intentos de alterar los sistemas asociados "
-                "a la promoción, pero omitió otras causales presentes en el "
-                "PDF, como el fraude, los participantes no elegibles, las "
-                "violaciones de la dinámica, los hackers y los caza "
-                "promociones."
-            ),
-            "",
-            (
-                "Esto muestra que los chunks pequeños pueden mejorar la "
-                "precisión local, pero un k bajo ofrece muy poco contexto para "
-                "preguntas que requieren reunir una lista distribuida en "
-                "varias páginas. En este caso, la respuesta fue menos exacta "
-                "por incompleta, no porque las afirmaciones recuperadas fueran "
-                "incorrectas."
-            ),
-            "",
-            "### 3. Comparación entre temperature=0.1 y temperature=0.8",
-            "",
-            (
-                "Con temperature=0.1, la respuesta fue más directa, estable y "
-                "cercana a la redacción de los fragmentos. Esta configuración "
-                "es preferible para términos y condiciones, políticas, "
-                "contratos y otros documentos donde importa más la fidelidad "
-                "que la variedad de expresión."
-            ),
-            "",
-            (
-                "Con temperature=0.8, la respuesta tuvo una redacción más "
-                "elaborada y desarrolló con mayor amplitud algunas "
-                "consecuencias. Aunque en esta ejecución se mantuvo respaldada "
-                "por el contexto, una temperatura alta aumenta la variación "
-                "entre ejecuciones y el riesgo de agregar interpretaciones no "
-                "explícitas. Sería más útil para tareas creativas o de estilo, "
-                "pero no es la opción recomendada para este RAG documental."
-            ),
-            "",
-            "## Conclusión",
-            "",
-            (
-                "Para esta consulta, el escenario 2 ofrece la respuesta más "
-                "completa: conserva chunks amplios, mantiene un traslape "
-                "suficiente, recupera seis fragmentos y utiliza una "
-                "temperatura baja. El escenario base también funciona bien, "
-                "mientras que el escenario 1 pierde causales importantes y el "
-                "escenario 3 introduce una variación de estilo innecesaria "
-                "para un documento normativo."
-            ),
-            "",
-            "## Nota sobre el proveedor",
-            "",
-            (
-                "El taller fue ejecutado con OpenAI, conservando el flujo RAG "
-                "solicitado: carga, división, embeddings, almacenamiento "
-                "vectorial, recuperación y generación de la respuesta. Los "
-                "modelos utilizados fueron `text-embedding-3-small` y "
-                "`gpt-4.1-mini`."
-            ),
-            "",
-        ]
-    )
+    if analisis:
+        lineas.extend(
+            [
+                "## Análisis de los resultados",
+                "",
+                analisis.strip(),
+                "",
+                "## Nota sobre el proveedor",
+                "",
+                (
+                    "El taller fue ejecutado con OpenAI. Los modelos utilizados "
+                    "fueron `text-embedding-3-small` y `gpt-4.1-mini`."
+                ),
+                "",
+            ]
+        )
+
+    if conversacion:
+        lineas.extend(
+            [
+                "## Chat conversacional",
+                "",
+            ]
+        )
+        for numero, turno in enumerate(conversacion, start=1):
+            lineas.extend(
+                [
+                    f"### Turno {numero}",
+                    "",
+                    f"**Usuario:** {turno['pregunta']}",
+                    "",
+                    f"**Asistente:** {turno['respuesta']}",
+                    "",
+                ]
+            )
 
     REPORT_PATH.write_text("\n".join(lineas), encoding="utf-8")
 
@@ -439,7 +582,16 @@ def main():
         # se interrumpe durante una consulta posterior.
         guardar_informe(resultados)
 
+    print("\nGenerando el análisis comparativo del taller...")
+    analisis = generar_analisis(resultados)
+    guardar_informe(resultados, analisis)
+
     print(f"\nInforme guardado en: {REPORT_PATH}")
+
+    # El escenario 2 es el más apropiado para el chat: utiliza chunks amplios,
+    # seis fragmentos recuperados y una temperatura baja.
+    vector_store_chat, _ = stores[(1000, 200)]
+    iniciar_chat_conversacional(vector_store_chat, resultados, analisis)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 ## Pregunta
 
-capital de tunez?
+que promociones hay hoy?
 
 ## Escenario base
 
@@ -14,43 +14,13 @@ capital de tunez?
 
 ### Respuesta
 
-Respuesta general (no proviene del documento):  
-La capital de Túnez es Túnez.
+Según el documento: La promoción vigente se llama “Ofertas de Hoy con Inés Básicos” y está activa del 1 de febrero al 15 de marzo de 2019 en tiendas Básicos de la República Mexicana. Participan todos los productos de la marca Nestlé, excepto algunas presentaciones específicas como Nespresso, fórmulas infantiles, Purina, helados Nestlé, Wonka, lácteos refrigerados, bebidas lácteas listas para beber y productos no comestibles.
+
+Como incentivo, se ofrecen 4 motocicletas Italika modelo DT 110, una por tienda participante. La promoción no es acumulable con otras ofertas y el premio no es transferible ni canjeable por dinero.
 
 ### Fragmentos recuperados
 
-#### Fragmento 1 — página 8
-
-ANEXO A 
- 
-TIENDAS 
- 
-1. C&C Queretaro: Plaza Zimapán #234 Plazas del Sol 3ra Sección, Delegación Josefa 
-Vergara y Hernandez C.P. 76099, Queretaro, Queretaro. 
- 
-2. C&C Celaya: Av., Constituyentes Esq.  Con Antonio Plaza #419 Centro, C.P. 38090, 
-Celaya Gto. 
- 
-3. C&C Cortazar: Fco. I Madero #109, Centro, C.P. 38300, Cortazar, Gto. 
- 
-4. Autoservicio Jaral: José María Morelos #228, Centro, C.P. 38470, Jaral del Progreso, Gto
-
-#### Fragmento 2 — página 5
-
-responsabilidad por cualquier falla técnica o un funcionamiento defectuoso o cualquier otro 
-problema con la red que es té conectado en línea al sistema, servidores, o proveedores de 
-otro tipo, que puede ser el resultado de cualquier contenido o entrada en la promoción que 
-no esté correctamente registrado. Todas las cuestiones y controversias serán sometidas a 
-la decisión final del mismo. 
-- La Organizadora no se hace cargo de los gastos que generen, suministro de energía 
-eléctrica, servicio de telecomunicaciones, programas y software y hardware, reproductores 
-musicales, ni recomienda o promueve marca alguna de insumos tecnológicos y cualquier 
-otro requisito de participación. 
-- Todos los participantes que  acepten las bases, términos y condiciones de la promoción, 
-aceptan en forma adicional, que los mismos puedan ser modificados por los organizadores 
-así como de las decisiones que adopten sobre cualquier cuestión prevista o no prevista en
-
-#### Fragmento 3 — página 1
+#### Fragmento 1 — página 1
 
 BASES Y MECÁNICAS DE LA PROMOCIÓN 
  
@@ -76,7 +46,7 @@ compra formal siempre y cuando contenga los siguientes elementos:
  
 • Número de ticket
 
-#### Fragmento 4 — página 5
+#### Fragmento 2 — página 5
 
 - Si por cualquier razón, la promoción no es capaz de ejecutarse tal y com o estaba previsto, 
 incluyendo, alguna limitación, la infección por virus de computadora, bugs, la manipulación, 
@@ -88,6 +58,51 @@ previo aviso al público y siempre y cuando no afecte los derechos de los partic
 - Desarrollo Comercial Abarrotero., y sus subsidiarias y/o afiliadas no aceptan ninguna 
 responsabilidad por cualquier falla técnica o un funcionamiento defectuoso o cualquier otro 
 problema con la red que es té conectado en línea al sistema, servidores, o proveedores de
+
+#### Fragmento 3 — página 1
+
+Tiendas participantes: Las tiendas Basicos  de la República Mexicana  que emitan un ticket de 
+compra formal siempre y cuando contenga los siguientes elementos: 
+ 
+• Número de ticket 
+• Cumplir con la vigencia de la promoción 
+• Nombre de la empresa que lo emite 
+• Razón social 
+• Fecha 
+• Monto de compra en productos participantes 
+ 
+Nos reservamos el der echo de autentificar los tickets a través de las cadenas emisoras de los 
+mismos. 
+ 
+Lista de productos a promover participantes: 
+ 
+Todos los productos de la marca Nestlé®.  
+ 
+No participan cualquier presentación de: Nespresso®, Fórmulas infantiles (NAN 1 y 2®, Good Start®, 
+Nidal®), Materna®, Purina®, Helados Nestlé®, Wonka® Lácteos refrigerados, Bebidas lácteas listas 
+para beber y No comestibles. 
+ 
+Incentivos Ofrecidos: 
+ 
+Se ofrecerán un total de 4 motocicletas marca Italika modelo DT 110. 
+ 
+Será entregada una motocicleta por tienda, es decir un ganador por tienda (no podrá ganar el mismo
+
+#### Fragmento 4 — página 5
+
+participantes para obtener el beneficio de la promoción sin importar que los mecanismos que 
+usa sean poco ortodoxos, éticos, morales o incluso ilegales). 
+- Consulta el Aviso de Privacidad   en la tienda aplicable donde este exhibida la urna de 
+participación. 
+- El premio no es transferible, ni canjeable por dinero en efectivo o alguno de otra especie. 
+- No acumulable con otras promociones o descuentos. 
+- Los premios se entregan únicamente en el territorio nacional en el lugar y fecha indicada en 
+las bases de la promoción o por el organizador al momento de contactar al posible ganador.  
+- En caso de que el participante ganador del premio requiera realizar algún gasto inherente 
+para su entrega /recepción, uso o para llevarlo consigo a su lugar de origen, tales como 
+transporte, alimentos, hospedaje, combustible, seguros, peajes, limpieza y/o mantenimiento, 
+y/o cualquier otro, correrán por su propia cuenta y no le serán reembolsables de forma 
+alguna.
 
 ## Escenario 1: chunks pequeños y menos fragmentos
 
@@ -99,29 +114,24 @@ problema con la red que es té conectado en línea al sistema, servidores, o pro
 
 ### Respuesta
 
-Respuesta general (no proviene del documento):  
-La capital de Túnez es Túnez.
+Según el documento: La promoción vigente es "Ofertas de Hoy con Inés Básicos", organizada por Desarrollo Comercial Abarrotero SA de CV. No se especifican detalles adicionales sobre las ofertas o productos incluidos en esta promoción.
 
 ### Fragmentos recuperados
 
-#### Fragmento 1 — página 8
+#### Fragmento 1 — página 1
 
-ANEXO A 
+LAS ANALICE Y CONCIENTEMENTE PARTICIPE O SE ABSTENGA DE ELLO. 
  
-TIENDAS 
+Nombre de la promoción: “Ofertas de Hoy con Inés Básicos” 
  
-1. C&C Queretaro: Plaza Zimapán #234 Plazas del Sol 3ra Sección, Delegación Josefa 
-Vergara y Hernandez C.P. 76099, Queretaro, Queretaro. 
- 
-2. C&C Celaya: Av., Constituyentes Esq.  Con Antonio Plaza #419 Centro, C.P. 38090, 
-Celaya Gto. 
- 
-3. C&C Cortazar: Fco. I Madero #109, Centro, C.P. 38300, Cortazar, Gto.
+Responsable y organizadora de la promoción: Desarrollo Comercial Abarrotero SA de CV. Con 
+domicilio carr. cortazar-estacion km 1.5 s/n predio Santa Anita c.p 38300 Cortazar, Gto
 
-#### Fragmento 2 — página 1
+#### Fragmento 2 — página 2
 
-M.N. (setenta pesos 00/100 moneda nacional) en productos participantes de la marca Nestlé, podrá 
-participar en la promoción para intentar ganarse uno de los premios mencionados anteriormente.
+participantes de la promoción, la cual no tendrá ningún uso externo a la promoción. 
+5. Concluida la vigencia de participación, el 26 de Marzo de 2019, en el domicilio de la responsable 
+de la promoción , en un horario de 9:00 a 18:00 horas,  se revisarán las participaciones  de los
 
 ## Escenario 2: más fragmentos recuperados
 
@@ -133,43 +143,13 @@ participar en la promoción para intentar ganarse uno de los premios mencionados
 
 ### Respuesta
 
-Respuesta general (no proviene del documento):  
-La capital de Túnez es Túnez. Es la ciudad más grande y la capital del país Túnez, ubicado en el norte de África.
+Según el documento: La promoción vigente se llama “Ofertas de Hoy con Inés Básicos” y está activa del 1 de febrero al 15 de marzo de 2019. Aplica en tiendas Básicos de la República Mexicana y ofrece como incentivo un total de 4 motocicletas Italika DT 110, una por tienda participante. Para participar, se debe comprar productos Nestlé (excepto algunas marcas y presentaciones excluidas) por un mínimo de $70 MXN en un solo ticket de compra válido.  
+
+No se permite acumular tickets, ni que un mismo participante gane más de una vez o en más de una tienda. La promoción es exclusiva para mayores de 18 años residentes en México y no es acumulable con otras promociones o descuentos.
 
 ### Fragmentos recuperados
 
-#### Fragmento 1 — página 8
-
-ANEXO A 
- 
-TIENDAS 
- 
-1. C&C Queretaro: Plaza Zimapán #234 Plazas del Sol 3ra Sección, Delegación Josefa 
-Vergara y Hernandez C.P. 76099, Queretaro, Queretaro. 
- 
-2. C&C Celaya: Av., Constituyentes Esq.  Con Antonio Plaza #419 Centro, C.P. 38090, 
-Celaya Gto. 
- 
-3. C&C Cortazar: Fco. I Madero #109, Centro, C.P. 38300, Cortazar, Gto. 
- 
-4. Autoservicio Jaral: José María Morelos #228, Centro, C.P. 38470, Jaral del Progreso, Gto
-
-#### Fragmento 2 — página 5
-
-responsabilidad por cualquier falla técnica o un funcionamiento defectuoso o cualquier otro 
-problema con la red que es té conectado en línea al sistema, servidores, o proveedores de 
-otro tipo, que puede ser el resultado de cualquier contenido o entrada en la promoción que 
-no esté correctamente registrado. Todas las cuestiones y controversias serán sometidas a 
-la decisión final del mismo. 
-- La Organizadora no se hace cargo de los gastos que generen, suministro de energía 
-eléctrica, servicio de telecomunicaciones, programas y software y hardware, reproductores 
-musicales, ni recomienda o promueve marca alguna de insumos tecnológicos y cualquier 
-otro requisito de participación. 
-- Todos los participantes que  acepten las bases, términos y condiciones de la promoción, 
-aceptan en forma adicional, que los mismos puedan ser modificados por los organizadores 
-así como de las decisiones que adopten sobre cualquier cuestión prevista o no prevista en
-
-#### Fragmento 3 — página 1
+#### Fragmento 1 — página 1
 
 BASES Y MECÁNICAS DE LA PROMOCIÓN 
  
@@ -195,7 +175,7 @@ compra formal siempre y cuando contenga los siguientes elementos:
  
 • Número de ticket
 
-#### Fragmento 4 — página 5
+#### Fragmento 2 — página 5
 
 - Si por cualquier razón, la promoción no es capaz de ejecutarse tal y com o estaba previsto, 
 incluyendo, alguna limitación, la infección por virus de computadora, bugs, la manipulación, 
@@ -208,46 +188,84 @@ previo aviso al público y siempre y cuando no afecte los derechos de los partic
 responsabilidad por cualquier falla técnica o un funcionamiento defectuoso o cualquier otro 
 problema con la red que es té conectado en línea al sistema, servidores, o proveedores de
 
-#### Fragmento 5 — página 6
+#### Fragmento 3 — página 1
 
-AVISO DE PRIVACIDAD 
-1. Identidad y Domicilio del Responsable de sus Datos Personales.  
+Tiendas participantes: Las tiendas Basicos  de la República Mexicana  que emitan un ticket de 
+compra formal siempre y cuando contenga los siguientes elementos: 
  
-Desarrollo Comercial Abarrotero SA de CV  en lo sucesivo “DECASA” con domicilio en CARR. CORTAZAR -ESTACION 
-KM 1.5 S/N PREDIO SANTA ANITA C.P 38300 CORTAZAR, GTO, será responsable del uso, tratamiento y protección de sus 
-datos personales en términos de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.  
-Así mismo, le informamos que de ninguna manera manejamos datos sensibles; por tal razón, deberá abstenerse de 
-proporcionar datos de esa índole.  
+• Número de ticket 
+• Cumplir con la vigencia de la promoción 
+• Nombre de la empresa que lo emite 
+• Razón social 
+• Fecha 
+• Monto de compra en productos participantes 
  
-2. Datos personales recabados.  
-En virtud de su participación en la promoción desplegada, en lo sucesivo “la promoción”, de la cual es responsable DECASA 
-con domicilio en CARR. CORTAZAR-ESTACION KM 1.5 S/N PREDIO SANTA ANITA C.P 38300 CORTAZAR, GTO 
+Nos reservamos el der echo de autentificar los tickets a través de las cadenas emisoras de los 
+mismos. 
  
-a) Para participar en la Promoción, Usted deberá proporcionar la siguiente información personal, en términos de las Bases de 
-la Promoción:
+Lista de productos a promover participantes: 
+ 
+Todos los productos de la marca Nestlé®.  
+ 
+No participan cualquier presentación de: Nespresso®, Fórmulas infantiles (NAN 1 y 2®, Good Start®, 
+Nidal®), Materna®, Purina®, Helados Nestlé®, Wonka® Lácteos refrigerados, Bebidas lácteas listas 
+para beber y No comestibles. 
+ 
+Incentivos Ofrecidos: 
+ 
+Se ofrecerán un total de 4 motocicletas marca Italika modelo DT 110. 
+ 
+Será entregada una motocicleta por tienda, es decir un ganador por tienda (no podrá ganar el mismo
 
-#### Fragmento 6 — página 6
+#### Fragmento 4 — página 5
 
-a) Para participar en la Promoción, Usted deberá proporcionar la siguiente información personal, en términos de las Bases de 
-la Promoción:  
+participantes para obtener el beneficio de la promoción sin importar que los mecanismos que 
+usa sean poco ortodoxos, éticos, morales o incluso ilegales). 
+- Consulta el Aviso de Privacidad   en la tienda aplicable donde este exhibida la urna de 
+participación. 
+- El premio no es transferible, ni canjeable por dinero en efectivo o alguno de otra especie. 
+- No acumulable con otras promociones o descuentos. 
+- Los premios se entregan únicamente en el territorio nacional en el lugar y fecha indicada en 
+las bases de la promoción o por el organizador al momento de contactar al posible ganador.  
+- En caso de que el participante ganador del premio requiera realizar algún gasto inherente 
+para su entrega /recepción, uso o para llevarlo consigo a su lugar de origen, tales como 
+transporte, alimentos, hospedaje, combustible, seguros, peajes, limpieza y/o mantenimiento, 
+y/o cualquier otro, correrán por su propia cuenta y no le serán reembolsables de forma 
+alguna.
+
+#### Fragmento 5 — página 3
+
+comunicación que estime conveniente. Así mismo, en el lugar de la actividad acept arán firmar 
+cualquier documento que el organizador estime pertinente para hacer constancia de lo anterior. 
  
-- Nombre completo (nombre(s), apellido paterno y apellido materno)  
-- Correo electrónico  
-- Teléfonos de contacto (casa/móvil)  
-- Ticket de compra  
-- Estado  
+Los testimoniales de participación a que se hacen referencia en el párrafo anterior serán propiedad 
+exclusiva del responsable de la Promoción y/o titular o licenciatario de las marcas de los productos 
+cuya compra otorga el derecho a los interesados de participar, los cuales podrá difundir y utilizar de 
+la manera que más convenga a sus intereses, sin que esto implique pago alguno a dichos 
+participantes por su aparición en cualquier medio de comunicación. 
  
-b) En caso de resultar ganador de la Promoción, confo rme las Bases, deberá presentar y entregar físicamente la siguiente 
-documentación:  
+CONDICIONES: 
  
-- Copia de identificación oficial vigente con fotografía por ambos lados.  
-- Domicilio completo 
- 
-Los datos personales anteriores y todos aquellos que se pudieran desprender de la entrega de los documentos anteriormente 
-descritos, serán denominados en conjunto y en lo sucesivo “datos personales”. Asimismo, NO recabamos datos personales 
-sensibles.  
- 
-Los datos personales anteriores y todos aquellos que se pudieran desprender de la entrega de los documentos anteriormente
+- Sólo participan mayores de 18 años. 
+- El ticket de compra deberá ser mínimo de $ 70.00 M.N. (Se tenta pesos 00/100 M.N.)  en 
+productos de la marca Nestlé. 
+- Los tickets no son acumulables para alcanzar la cantidad señalada como condición de
+
+#### Fragmento 6 — página 4
+
+- El ticket participante deberá tener fecha de expedición del 01 d e febrero al 15 de marzo de 
+2019. 
+- Sólo pueden participar personas que residan al interior de la República Mexicana que 
+cuenten con identificación oficial vigente. 
+- El ganador o el consumidor no podrá ganar más de una ocasión durante la vigencia de la 
+promoción, ni podrá ganar en más de una tienda. 
+- Se descalificarán los perfiles o usuarios que se detecten con actividades que pretendan 
+afectar la equidad de participación mediante el uso de sistemas automáticos o 
+semiautomáticos que pretendan obtener una ventaja que no sea natural, con el resto de 
+participantes. 
+- No podrán participar en la promoción becarios, propietarios, directores, Administradores, 
+promotores, colaboradores, familiares en línea recta ascendente ni descendiente en 
+segundo grado, ni colateral hasta el tercer grado, ni integrantes de  empresas de Grupo
 
 ## Escenario 3: temperatura alta
 
@@ -259,43 +277,13 @@ Los datos personales anteriores y todos aquellos que se pudieran desprender de l
 
 ### Respuesta
 
-Respuesta general (no proviene del documento):  
-La capital de Túnez es Túnez. Es la ciudad principal y sede del gobierno del país.
+Según el documento: La promoción vigente se llama “Ofertas de Hoy con Inés Básicos” y está activa del 1 de febrero al 15 de marzo de 2019 en tiendas Básicos de la República Mexicana. Participan productos Nestlé, excluyendo ciertas presentaciones como Nespresso®, fórmulas infantiles, Purina®, helados, bebidas lácteas listas para beber y no comestibles. Para participar, se debe presentar un ticket de compra mínimo de $70.00 MXN en productos Nestlé, con los requisitos indicados en el documento.
+
+El incentivo principal son 4 motocicletas Italika DT 110, con un ganador por tienda participante. No es acumulable con otras promociones ni canjeable por dinero. Solo participan mayores de 18 años residentes en México, cumpliendo las condiciones del reglamento.
 
 ### Fragmentos recuperados
 
-#### Fragmento 1 — página 8
-
-ANEXO A 
- 
-TIENDAS 
- 
-1. C&C Queretaro: Plaza Zimapán #234 Plazas del Sol 3ra Sección, Delegación Josefa 
-Vergara y Hernandez C.P. 76099, Queretaro, Queretaro. 
- 
-2. C&C Celaya: Av., Constituyentes Esq.  Con Antonio Plaza #419 Centro, C.P. 38090, 
-Celaya Gto. 
- 
-3. C&C Cortazar: Fco. I Madero #109, Centro, C.P. 38300, Cortazar, Gto. 
- 
-4. Autoservicio Jaral: José María Morelos #228, Centro, C.P. 38470, Jaral del Progreso, Gto
-
-#### Fragmento 2 — página 5
-
-responsabilidad por cualquier falla técnica o un funcionamiento defectuoso o cualquier otro 
-problema con la red que es té conectado en línea al sistema, servidores, o proveedores de 
-otro tipo, que puede ser el resultado de cualquier contenido o entrada en la promoción que 
-no esté correctamente registrado. Todas las cuestiones y controversias serán sometidas a 
-la decisión final del mismo. 
-- La Organizadora no se hace cargo de los gastos que generen, suministro de energía 
-eléctrica, servicio de telecomunicaciones, programas y software y hardware, reproductores 
-musicales, ni recomienda o promueve marca alguna de insumos tecnológicos y cualquier 
-otro requisito de participación. 
-- Todos los participantes que  acepten las bases, términos y condiciones de la promoción, 
-aceptan en forma adicional, que los mismos puedan ser modificados por los organizadores 
-así como de las decisiones que adopten sobre cualquier cuestión prevista o no prevista en
-
-#### Fragmento 3 — página 1
+#### Fragmento 1 — página 1
 
 BASES Y MECÁNICAS DE LA PROMOCIÓN 
  
@@ -321,7 +309,7 @@ compra formal siempre y cuando contenga los siguientes elementos:
  
 • Número de ticket
 
-#### Fragmento 4 — página 5
+#### Fragmento 2 — página 5
 
 - Si por cualquier razón, la promoción no es capaz de ejecutarse tal y com o estaba previsto, 
 incluyendo, alguna limitación, la infección por virus de computadora, bugs, la manipulación, 
@@ -334,71 +322,142 @@ previo aviso al público y siempre y cuando no afecte los derechos de los partic
 responsabilidad por cualquier falla técnica o un funcionamiento defectuoso o cualquier otro 
 problema con la red que es té conectado en línea al sistema, servidores, o proveedores de
 
-#### Fragmento 5 — página 6
+#### Fragmento 3 — página 1
 
-AVISO DE PRIVACIDAD 
-1. Identidad y Domicilio del Responsable de sus Datos Personales.  
+Tiendas participantes: Las tiendas Basicos  de la República Mexicana  que emitan un ticket de 
+compra formal siempre y cuando contenga los siguientes elementos: 
  
-Desarrollo Comercial Abarrotero SA de CV  en lo sucesivo “DECASA” con domicilio en CARR. CORTAZAR -ESTACION 
-KM 1.5 S/N PREDIO SANTA ANITA C.P 38300 CORTAZAR, GTO, será responsable del uso, tratamiento y protección de sus 
-datos personales en términos de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.  
-Así mismo, le informamos que de ninguna manera manejamos datos sensibles; por tal razón, deberá abstenerse de 
-proporcionar datos de esa índole.  
+• Número de ticket 
+• Cumplir con la vigencia de la promoción 
+• Nombre de la empresa que lo emite 
+• Razón social 
+• Fecha 
+• Monto de compra en productos participantes 
  
-2. Datos personales recabados.  
-En virtud de su participación en la promoción desplegada, en lo sucesivo “la promoción”, de la cual es responsable DECASA 
-con domicilio en CARR. CORTAZAR-ESTACION KM 1.5 S/N PREDIO SANTA ANITA C.P 38300 CORTAZAR, GTO 
+Nos reservamos el der echo de autentificar los tickets a través de las cadenas emisoras de los 
+mismos. 
  
-a) Para participar en la Promoción, Usted deberá proporcionar la siguiente información personal, en términos de las Bases de 
-la Promoción:
+Lista de productos a promover participantes: 
+ 
+Todos los productos de la marca Nestlé®.  
+ 
+No participan cualquier presentación de: Nespresso®, Fórmulas infantiles (NAN 1 y 2®, Good Start®, 
+Nidal®), Materna®, Purina®, Helados Nestlé®, Wonka® Lácteos refrigerados, Bebidas lácteas listas 
+para beber y No comestibles. 
+ 
+Incentivos Ofrecidos: 
+ 
+Se ofrecerán un total de 4 motocicletas marca Italika modelo DT 110. 
+ 
+Será entregada una motocicleta por tienda, es decir un ganador por tienda (no podrá ganar el mismo
 
-#### Fragmento 6 — página 6
+#### Fragmento 4 — página 5
 
-a) Para participar en la Promoción, Usted deberá proporcionar la siguiente información personal, en términos de las Bases de 
-la Promoción:  
+participantes para obtener el beneficio de la promoción sin importar que los mecanismos que 
+usa sean poco ortodoxos, éticos, morales o incluso ilegales). 
+- Consulta el Aviso de Privacidad   en la tienda aplicable donde este exhibida la urna de 
+participación. 
+- El premio no es transferible, ni canjeable por dinero en efectivo o alguno de otra especie. 
+- No acumulable con otras promociones o descuentos. 
+- Los premios se entregan únicamente en el territorio nacional en el lugar y fecha indicada en 
+las bases de la promoción o por el organizador al momento de contactar al posible ganador.  
+- En caso de que el participante ganador del premio requiera realizar algún gasto inherente 
+para su entrega /recepción, uso o para llevarlo consigo a su lugar de origen, tales como 
+transporte, alimentos, hospedaje, combustible, seguros, peajes, limpieza y/o mantenimiento, 
+y/o cualquier otro, correrán por su propia cuenta y no le serán reembolsables de forma 
+alguna.
+
+#### Fragmento 5 — página 3
+
+comunicación que estime conveniente. Así mismo, en el lugar de la actividad acept arán firmar 
+cualquier documento que el organizador estime pertinente para hacer constancia de lo anterior. 
  
-- Nombre completo (nombre(s), apellido paterno y apellido materno)  
-- Correo electrónico  
-- Teléfonos de contacto (casa/móvil)  
-- Ticket de compra  
-- Estado  
+Los testimoniales de participación a que se hacen referencia en el párrafo anterior serán propiedad 
+exclusiva del responsable de la Promoción y/o titular o licenciatario de las marcas de los productos 
+cuya compra otorga el derecho a los interesados de participar, los cuales podrá difundir y utilizar de 
+la manera que más convenga a sus intereses, sin que esto implique pago alguno a dichos 
+participantes por su aparición en cualquier medio de comunicación. 
  
-b) En caso de resultar ganador de la Promoción, confo rme las Bases, deberá presentar y entregar físicamente la siguiente 
-documentación:  
+CONDICIONES: 
  
-- Copia de identificación oficial vigente con fotografía por ambos lados.  
-- Domicilio completo 
- 
-Los datos personales anteriores y todos aquellos que se pudieran desprender de la entrega de los documentos anteriormente 
-descritos, serán denominados en conjunto y en lo sucesivo “datos personales”. Asimismo, NO recabamos datos personales 
-sensibles.  
- 
-Los datos personales anteriores y todos aquellos que se pudieran desprender de la entrega de los documentos anteriormente
+- Sólo participan mayores de 18 años. 
+- El ticket de compra deberá ser mínimo de $ 70.00 M.N. (Se tenta pesos 00/100 M.N.)  en 
+productos de la marca Nestlé. 
+- Los tickets no son acumulables para alcanzar la cantidad señalada como condición de
+
+#### Fragmento 6 — página 4
+
+- El ticket participante deberá tener fecha de expedición del 01 d e febrero al 15 de marzo de 
+2019. 
+- Sólo pueden participar personas que residan al interior de la República Mexicana que 
+cuenten con identificación oficial vigente. 
+- El ganador o el consumidor no podrá ganar más de una ocasión durante la vigencia de la 
+promoción, ni podrá ganar en más de una tienda. 
+- Se descalificarán los perfiles o usuarios que se detecten con actividades que pretendan 
+afectar la equidad de participación mediante el uso de sistemas automáticos o 
+semiautomáticos que pretendan obtener una ventaja que no sea natural, con el resto de 
+participantes. 
+- No podrán participar en la promoción becarios, propietarios, directores, Administradores, 
+promotores, colaboradores, familiares en línea recta ascendente ni descendiente en 
+segundo grado, ni colateral hasta el tercer grado, ni integrantes de  empresas de Grupo
 
 ## Análisis de los resultados
 
-### 1. Beneficios y limitaciones del escenario base
+### 1. Beneficios y limitaciones de usar chunk_size=1000, chunk_overlap=200, k=4 y temperature=0.1
 
-En el escenario base, los fragmentos de 1000 caracteres con un traslape de 200 conservaron suficiente contexto alrededor de cada regla. Esto permitió recuperar en un mismo fragmento la causal de descalificación y su explicación, reduciendo el riesgo de interpretar frases aisladas. El traslape también ayudó a preservar ideas que se encontraban cerca del límite entre dos chunks.
+**Beneficios:**
+- La respuesta es detallada y completa, incluyendo nombre de la promoción, fechas, ubicación, productos participantes y exclusiones específicas.
+- Se mencionan claramente los incentivos (4 motocicletas Italika DT 110) y las condiciones de la promoción (no acumulable, no transferible).
+- El tamaño grande de los fragmentos (chunk_size=1000) con un solapamiento considerable (chunk_overlap=200) permite capturar contexto amplio, lo que ayuda a generar respuestas precisas y coherentes.
+- Recuperar 4 fragmentos (k=4) parece suficiente para cubrir la información relevante sin sobrecargar el modelo.
 
-La principal limitación es que los fragmentos largos pueden incluir información que no responde directamente a la pregunta. Además, el traslape produce contenido repetido, aumenta la cantidad de texto almacenado y puede hacer que varios resultados contengan partes similares. Aun así, para este documento, la configuración base ofreció un equilibrio adecuado entre contexto y precisión.
+**Limitaciones:**
+- Aunque la respuesta es precisa, no incluye algunos detalles adicionales que aparecen en otros escenarios con más fragmentos recuperados (como el monto mínimo de compra o restricciones de edad).
+- El número de fragmentos generados (35) es moderado, pero puede implicar mayor tiempo de procesamiento comparado con fragmentos más pequeños.
 
-### 2. Efecto de chunks pequeños, menor traslape y k=2
+---
 
-Al reducir el chunk_size a 350, el chunk_overlap a 20 y k a 2, los fragmentos fueron más específicos, pero perdieron continuidad. La respuesta recuperó el incumplimiento de los requisitos y los intentos de alterar los sistemas asociados a la promoción, pero omitió otras causales presentes en el PDF, como el fraude, los participantes no elegibles, las violaciones de la dinámica, los hackers y los caza promociones.
+### 2. Cambios en calidad de fragmentos y exactitud de la respuesta con chunk_size=350, chunk_overlap=20 y k=2
 
-Esto muestra que los chunks pequeños pueden mejorar la precisión local, pero un k bajo ofrece muy poco contexto para preguntas que requieren reunir una lista distribuida en varias páginas. En este caso, la respuesta fue menos exacta por incompleta, no porque las afirmaciones recuperadas fueran incorrectas.
+- El tamaño pequeño de los fragmentos (chunk_size=350) y bajo solapamiento (20) genera muchos más fragmentos (90), lo que puede fragmentar la información y dificultar la recuperación de contexto completo.
+- Recuperar solo 2 fragmentos (k=2) limita la cantidad de información disponible para la respuesta.
+- Como resultado, la respuesta es mucho más vaga y menos precisa: solo menciona el nombre de la promoción y la empresa organizadora, sin detalles sobre productos, fechas, incentivos o condiciones.
+- Esto indica que fragmentos pequeños y pocos recuperados afectan negativamente la exactitud y riqueza de la respuesta, ya que el modelo no tiene suficiente contexto para elaborar una respuesta completa.
 
-### 3. Comparación entre temperature=0.1 y temperature=0.8
+---
 
-Con temperature=0.1, la respuesta fue más directa, estable y cercana a la redacción de los fragmentos. Esta configuración es preferible para términos y condiciones, políticas, contratos y otros documentos donde importa más la fidelidad que la variedad de expresión.
+### 3. Comparación entre temperature=0.1 y temperature=0.8 en estilo, fidelidad al documento y conveniencia de uso
 
-Con temperature=0.8, la respuesta tuvo una redacción más elaborada y desarrolló con mayor amplitud algunas consecuencias. Aunque en esta ejecución se mantuvo respaldada por el contexto, una temperatura alta aumenta la variación entre ejecuciones y el riesgo de agregar interpretaciones no explícitas. Sería más útil para tareas creativas o de estilo, pero no es la opción recomendada para este RAG documental.
+- **Estilo:**
+  - Con temperature=0.1 (Escenario 2), el estilo es más formal, directo y objetivo, con frases claras y sin variaciones creativas.
+  - Con temperature=0.8 (Escenario 3), el estilo es más fluido y natural, con ligeras variaciones en la redacción que hacen la respuesta más amena y menos rígida.
+
+- **Fidelidad al documento:**
+  - Ambos escenarios mantienen alta fidelidad al documento, mencionando fechas, productos excluidos, incentivos y condiciones.
+  - Sin embargo, con temperature=0.8 se observa un poco más de parafraseo y uso de sinónimos, aunque sin perder precisión.
+  - Temperature=0.1 tiende a reproducir la información de forma más literal y exacta.
+
+- **Conveniencia de uso:**
+  - Temperature=0.1 es más conveniente cuando se requiere respuestas estrictamente fieles y formales, ideales para documentos legales o técnicos.
+  - Temperature=0.8 es útil cuando se busca un tono más amigable o natural, adecuado para atención al cliente o comunicaciones menos formales.
+  - En ambos casos, la información clave se mantiene, pero la elección depende del contexto y audiencia.
+
+---
 
 ## Conclusión
 
-Para esta consulta, el escenario 2 ofrece la respuesta más completa: conserva chunks amplios, mantiene un traslape suficiente, recupera seis fragmentos y utiliza una temperatura baja. El escenario base también funciona bien, mientras que el escenario 1 pierde causales importantes y el escenario 3 introduce una variación de estilo innecesaria para un documento normativo.
+El uso de fragmentos grandes con solapamiento moderado y recuperación de varios fragmentos (chunk_size=1000, chunk_overlap=200, k=4) produce respuestas completas y precisas, aunque puede requerir más recursos. Fragmentos pequeños y pocos recuperados (chunk_size=350, chunk_overlap=20, k=2) generan respuestas superficiales y poco detalladas debido a la fragmentación excesiva y falta de contexto. En cuanto a la temperatura, valores bajos (0.1) garantizan respuestas más literales y formales, mientras que valores altos (0.8) ofrecen un estilo más natural y fluido sin sacrificar la fidelidad, siendo más adecuados para contextos menos formales. La elección de parámetros debe balancear precisión, estilo y recursos según el objetivo del sistema RAG.
 
 ## Nota sobre el proveedor
 
-El taller fue ejecutado con OpenAI, conservando el flujo RAG solicitado: carga, división, embeddings, almacenamiento vectorial, recuperación y generación de la respuesta. Los modelos utilizados fueron `text-embedding-3-small` y `gpt-4.1-mini`.
+El taller fue ejecutado con OpenAI. Los modelos utilizados fueron `text-embedding-3-small` y `gpt-4.1-mini`.
+
+## Chat conversacional
+
+### Turno 1
+
+**Usuario:** InteTendriamos que implementar algo?
+
+**Asistente:** Según el documento: no se menciona explícitamente que los participantes o responsables deban implementar alguna acción específica para participar en la promoción. Sin embargo, los organizadores se reservan el derecho de modificar las bases y condiciones, así como de limitar o prohibir la participación en caso de fraude o alteraciones. Por lo tanto, es importante estar atentos a cualquier cambio que se comunique y cumplir con los requisitos establecidos para evitar descalificaciones.
+
+Si te refieres a implementar medidas de seguridad o controles, el documento indica que los organizadores pueden cancelar o modificar la promoción ante fallas técnicas o intentos de fraude, pero no especifica que los participantes deban implementar algo por su cuenta.

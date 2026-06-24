@@ -1,0 +1,15 @@
+services:
+  chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nestle-chat-conversacional
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./storage:/app/storage
+      - ./data:/app/data:ro
+    restart: unless-stopped
+
